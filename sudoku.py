@@ -50,7 +50,7 @@ def solveSudoku(grid,r,c):
 			grid[r][c]=0
 		return False
 
-print("Hey,Hello!! I am a bot.I can solve any 3*3 sudoku!!")
+print("Hey,Hello!! I am a bot.I can solve any 9*9 sudoku!!")
 print("Are you ready to give the incomplete sudoku table data???  YES  or  NO  ?? : ",end="")
 
 while(input().upper()=="YES"):
