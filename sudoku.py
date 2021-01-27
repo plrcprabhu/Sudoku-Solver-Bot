@@ -52,9 +52,13 @@ def solveSudoku(grid,r,c):
 
 print("Hey,Hello!! I am a bot.I can solve any 3*3 sudoku!!")
 print("Are you ready to give the incomplete sudoku table data???  YES  or  NO  ?? : ",end="")
+
 while(input().upper()=="YES"):
+	
 	print("#NOTE : For any incomplete cell, give the data as 0")
+	
 	print("OK!! Give me the....")
+	
 	for i in range(0,N):
 		print("Row"+str(i+1)+" data : ",end="")
 		row=list(map(int,input().rstrip().split()))
